@@ -4,7 +4,7 @@ function swap(str) {
     for ( let  i = 0;i <str.length;i++){
     if (str[i]===str[i].toUpperCase()) {
         beginningWords +=
-        str[i].toLowerCase;
+        str[i].toLowerCase();
     } else if ( str[i]===str[i].toLowerCase()){
         beginningWords+=str[i].toUpperCase();
     }else {
